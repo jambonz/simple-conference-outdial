@@ -1,0 +1,23 @@
+{
+  "name": "simple-conference-outdial",
+  "version": "0.0.1",
+  "description": "jambonz webhook application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client": "^0.2.24",
+    "debug": "^4.3.3",
+    "express": "^4.17.2",
+    "express-basic-auth": "^1.2.1",
+    "pino": "^7.6.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
